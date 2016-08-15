@@ -119,23 +119,15 @@ you'll commonly see people write things like `Resolves #73`
 
 ## Submission
 
-You should already have:
+Since you created a repo as part of this assignment, just create a new empty
+repo on your GitHub account and add it as a remote repo to `example-git-project`
+by typing the command `git remote add origin ...`,  where `...` is the SSH
+URL that shows up on GitHub
+(e.g. `git@github.com:YourGitHubUsername/example-git-project.git`).
 
-1.  Forked the `wdi-remote-...` repo to your GitHub account, and
+Then, push up your code to GitHub by typing `git push origin master`.
 
-2.  Cloned that fork to your local machine, so that your local repo's
-    `origin` remote points to your fork (you can check this by running
-    `git remote -v` and reading the output).
-
-Use the following procedure to submit your homework.
-
-1.  Push up your code to the fork by typing `git push origin master`
-
-2.  Create an issue on the upstream (i.e. original) `wdi-remote-...`
-    repo with the title "YourGitHubUsername -- Week XX Day XX".
-
-3.  In the body of this issue, add a link which points back to the
-    `homework` directory for that night in your fork.
-
-4.  Finally, add any comments or notes to the body of the issue, and
-    click 'Submit new issue'.
+Finally, create an issue on the `wdi-remote-...` repo, with the title
+"YourGitHubUsername -- Week XX Day XX".
+Add a link to the body of the issue that points to your new repo on Github,
+include any other comments or notes you want, and click 'Submit new issue'.
