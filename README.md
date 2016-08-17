@@ -57,9 +57,10 @@ Guidelines" below) after completing each step.
     for placing an order, and a 'Back' link similar to the one in `about.html`.
 
 9.  Inside the order form, add a set of checkboxes (to selectively
-    include/exclude Features A, B, C, D, and E). Make sure that all checkboxes
-    have the same 'name' property, so that their results will get grouped
-    together by the form.
+    include/exclude Features A, B, C, D, and E), and create labels to match up
+    with each checkbox. Fill each label with the appropriate text ('Feature A',
+    'Feature B', etc). Make sure that all checkboxes have the same value for
+    'name', so that their results will get grouped together by the form.
 
 10. Also inside the order form, add a drop-down menu to choose the delivery
     speed : Standard Delivery, Expedited Delivery, or Overnight Delivery.
