@@ -163,9 +163,13 @@ by typing the command `git remote add origin ...`,  where `...` is the SSH
 URL that shows up on GitHub
 (e.g. `git@github.com:YourGitHubUsername/example-git-project.git`).
 
-Then, push up your code to GitHub by typing `git push origin master`.
+> **IMPORTANT NOTE**: Do not pre-populate this remote repo with any files -- it
+> must be _**completely empty**_.
+
+Push up your code to GitHub by typing `git push origin master`.
 
 Finally, create an issue on the `wdi-remote-...` repo, with the title
-"YourGitHubUsername -- Week XX Day XX".
-Add a link to the body of the issue that points to your new repo on Github,
-include any other comments or notes you want, and click 'Submit new issue'.
+"YourGitHubUsername -- Week XX Day XX". Just like yesterday, add a link to the
+body of the issue that points to your new repo on Github and a 'comfort' score
+for your understanding of the material (no automated tests today).
+Finally, click 'Submit new issue' when you're finished.
