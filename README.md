@@ -11,6 +11,51 @@
   competencies: git, html
 -->
 
+## A Note About Git Commits
+
+For this assignment (and the one tomorrow as well), you **must** use
+`git commit` rather than `git commit -m` to make your commits. Why?
+When using the `-m` version, you can only write a single line of text in your
+commit message. This makes it hard for your commit message to have much detail.
+
+What kinds of details are important? Things like
+
+-   High-level descriptions of groups of changes;
+
+-   Explanations of why a particular change or group of changes got made;
+
+-   References to external code, both for providiing attribution and for
+    linking to relevant documentation; and, most commonly...
+
+-   References to the issue (or issues) that your commit is addressing (a very
+    important part of managing workflow).
+
+Opening up a text editor also gives you an opportunity to make your commit
+message thoughtful, rather than just `"Pushed code"`. In fact, for this
+assignment and the next one, every commit message you write must have a
+**subject line** that gives a high-level description of the commit, followed by
+a **message body** that goes into more detail.
+
+## Setup
+
+The terminal's default text editor is, perhaps unsurprisingly, an editor which
+runs inside the terminal -- it's called [`Vim`](http://www.vim.org/)
+
+Vim is a tool that many serious developers use for working with text, but it
+can sometimes be intimidating to a beginner. If you're interested in learning to
+use Vim, there are a variety of [cheatsheets](http://vim.rtorr.com/)
+available online.
+However, we would recommend instead that you use **Atom** as the text editor.
+
+To set Atom as the terminal's default editor, run the following Bash commands:
+
+1.  `echo "export VISUAL='atom --wait'" >> ~/.bash_profile`
+2.  `echo "export EDITOR='atom --wait'" >> ~/.bash_profile`
+3.  `source ~/.bash_profile`
+
+> Watch out for backticks ( ` ) when you copy and paste! They're part of the
+> README's formatting code, and should not be included in the commands.
+
 ## Directions
 
 Create a new directory on your computer called `example-git-project`, and run
