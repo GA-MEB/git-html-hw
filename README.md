@@ -120,18 +120,10 @@ are two good ones.
 
 ### Commit Guidelines
 
-Rule Number 1 is to not use `commit -m`; it doesn't let you give a detailed
-commit message. Instead, just write `git commit` and write your message in the
-text editor that pops up (e.g. Atom, Sublime Text, Vim).
-
-Every commit message must have a **subject line** that gives a high-level
-description of the commit, followed by a **message body** that goes into more
-detail.
-
-Additionally, each commit message should adhere to the seven rules
-below, which lay out some widely-accepted best practices. A detailed analysis
-of these rules can be found
-[here](http://chris.beams.io/posts/git-commit/#seven-rules).
+In addition to having a subject line and a commit body,
+each commit message should adhere to the seven guidelines below,
+which lay out some widely-accepted best practices.
+A detailed analysis and discussion of these guidelines can be found [here](http://chris.beams.io/posts/git-commit/#seven-rules).
 
 1.  Separate your subject line from your body with a blank line.
 
@@ -161,7 +153,7 @@ See: #112
 That last bit (`See #112`) is a reference to an issue on the repo.
 GitHub recognizes those notes, and this allows you to quickly see which commits
 are tied to which issues. If a commit completely solves an issue,
-you'll commonly see people write things like `Resolves #73`
+you'll commonly see people write something like `Resolves #73`
 
 ## Submission
 
