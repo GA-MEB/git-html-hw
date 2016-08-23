@@ -122,20 +122,22 @@ each commit message should adhere to the seven guidelines below,
 which lay out some widely-accepted best practices.
 A detailed analysis and discussion of these guidelines can be found [here](http://chris.beams.io/posts/git-commit/#seven-rules).
 
-1.  Separate your subject line from your body with a blank line.
+1.  **Separate your subject line from your body with a blank line**.
 
-2.  Limit the subject line to 50 characters (some say 40).
+2.  **Limit the subject line to 50 characters** (some say 40).
 
-3.  Capitalize the subject line.
+3.  **Capitalize the subject line**. (i.e. 'This is my commit', not
+    'This Is My Commit' or 'this is my commit')
 
-4.  Do not end your subject line in a period.
+4.  **Do not end your subject line in a period**.
 
-5.  Use the imperative mood in the subject line. This means to write
+5.  **Use the imperative mood in the subject line**. This means to write
     it as if you were giving someone a command, e.g. "Create a new directory"
 
-6.  Wrap the body at 72 characters.
+6.  **Wrap the body at 72 characters**. This means to make sure that no line is
+    longer than 72 characters by using line breaks.
 
-7.  Use the body to explain _what_ and _why_ rather than _how_.
+7.  **Use the body to explain _what_ and _why_ rather than _how_**.
 
 Here's an example commit message.
 
