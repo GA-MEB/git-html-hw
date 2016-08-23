@@ -58,11 +58,8 @@ To set Atom as the terminal's default editor, run the following Bash commands:
 
 ## Directions
 
-Create a new directory on your computer called `example-git-project`, and run
-`git init` inside it to turn that directory into a repo.
-
-In this directory, you are going to make a simple storefront website,
-piece by piece, and you will need to make a commit (following the "Commit
+You are going to make a simple storefront website, piece by piece, inside this
+directory. As you do, you will need to make a commit (following the "Commit
 Guidelines" below) after completing each step.
 
 1.  Create a new file called `index.html`, filled with HTML boilerplate.
@@ -157,19 +154,22 @@ you'll commonly see people write something like `Resolves #73`
 
 ## Submission
 
-Since you created a repo as part of this assignment, just create a new empty
-repo on your GitHub account and add it as a remote repo to `example-git-project`
-by typing the command `git remote add origin ...`,  where `...` is the SSH
-URL that shows up on GitHub
-(e.g. `git@github.com:YourGitHubUsername/example-git-project.git`).
-
-> **IMPORTANT NOTE**: Do not pre-populate this remote repo with any files -- it
-> must be _**completely empty**_.
-
 Push up your code to GitHub by typing `git push origin master`.
 
-Finally, create an issue on the `wdi-remote-...` repo, with the title
-"YourGitHubUsername -- Week XX Day XX". Just like yesterday, add a link to the
-body of the issue that points to your new repo on Github and a 'comfort' score
-for your understanding of the material (no automated tests today).
-Finally, click 'Submit new issue' when you're finished.
+Then, create an issue on the `wdi-remote-r2d2` repo, with the title
+"YourGitHubUsername -- Week XX Day XX". Add a link to the body of the issue that
+points to your fork on Github, and a 'comfort' score, from 1 to 5, based on your
+understanding of the material (where 5 is "I feel very comfortable with this
+material", and 1 is "I feel very uncomfortable with this material"). Feel free
+to give more context to this score if you like.
+
+e.g. For an issue named "GA-MEB -- Week 01 Day 02"
+
+```plaintext
+link : https://www.github.com/GA-MEB/wdi-remote-r2d2/unit_01/w01d02/homework
+comfort: 3
+
+Feeling mostly ok with things. My commit messages are getting better.
+```
+
+Finally, click 'Submit new issue'.
